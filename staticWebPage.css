@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: lightgray;
+
+}
+header{
+    position: fixed;
+    display: flex;
+    max-height: 5em;
+    min-width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background: 	#2d2d2d;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    font: white;
+    font-family: overpass;
+    font-size: 14px;
+    padding: 0px 16px;
+    text-transform: uppercase;
+}
+
+
+img{
+    
+    height: 5em;
+    width: 5em;
+}
+div{
+    display: flex;
+}
+a{
+    align-self: center;
+    margin-left: 10px;
+    color: white;
+}
+
+video{
+    display:inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    height: 100vh; 
+    z-index: -1;
+ }
+ .wrapper{
+     flex-direction: column;
+     height: 200vh;
+     width: 100vw;
+
+ }
+
+ .centerPage{
+     display:flex;
+     margin: auto;
+     margin-top: 25em;
+    text-align: center;
+     width: 50vw;
+     background-color:rgb(45, 45, 45, .5);
+     color: white;
+ }
+ .mainContent{
+    display: flex;
+    
+   
+ }
+ #moreInfo{
+    margin-left: -18em;
+    border: 1px solid red;
+    background: red;
+
+ }
+
+ .contentSection{
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     margin-top: 50vh;
+     width: 75vw;
+     
+ }
+ .titleCard{
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+     height: -100em;
+     width: 10em;
+     font-weight: 500;
+     font-size: 5em;
+     color: #348db9;
+     margin-bottom: 1em;
+     padding: 0em;
+ }
+ .cardDeck{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-star;
+    top: 101vh;
+    padding: 0em;
+    
+ }
+ .cards{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    padding: 21px 34px;
+    height: 312px;
+    width: 314px;
+    background: #ffffff;
+    font-family: Overpass,'Open Sans',Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .025em;
+}
+
+.cardbutton{
+    
+}
+h1{ 
+    display: flex;
+    justify-content: flex-start;
+    font-family: Overpass,Helvetica,Arial,sans-serif;
+    letter-spacing: .05em;
+    width: auto;
+    font-size: 55px;
+    text-align: left;
+    padding: .25em 22px;
+    margin-bottom: .3em;
+}
+ 
